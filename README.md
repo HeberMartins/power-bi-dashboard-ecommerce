@@ -2,9 +2,6 @@
 
 Projeto desenvolvido para análise de desempenho de e-commerce fictício.
 
-## 🔍 Preview
-![Dashboard Preview](./images/dashboard-preview.png)
-
 ## 🛠️ Recursos Utilizados
 - **Transformação de dados**: Power Query
 - **Medidas**: DAX (Total de Vendas)
