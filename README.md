@@ -7,7 +7,7 @@ Projeto desenvolvido para análise de desempenho de e-commerce fictício.
 
 ## 🛠️ Recursos Utilizados
 - **Transformação de dados**: Power Query
-- **Medidas**: DAX (Total de Vendas, Ticket Médio)
+- **Medidas**: DAX (Total de Vendas)
 - **Visualizações**: Mapas, KPIs, Gráficos temporais
 
 ## ⚙️ Como Executar
@@ -18,5 +18,4 @@ Projeto desenvolvido para análise de desempenho de e-commerce fictício.
 ## 📊 Métricas Principais
 ```dax
 Total Vendas = SUM(Vendas[Quantidade]) * SUM(Vendas[Valor Unitário])
-Ticket Médio = DIVIDE([Total Vendas], DISTINCTCOUNT(Vendas[ID_Pedido]))
 ```
